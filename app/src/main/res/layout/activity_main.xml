@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.scroller.jastyle.customscrollview.MainActivity">
+    <com.scroller.jastyle.customscrollview.CustomScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/test1_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="#e10f60">
+
+        </ListView>
+        <ListView
+            android:id="@+id/test2_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="#08d608">
+
+        </ListView>
+        <ListView
+            android:id="@+id/test3_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="#f2f208">
+
+        </ListView>
+    </com.scroller.jastyle.customscrollview.CustomScrollView>
+
+</android.support.constraint.ConstraintLayout>
